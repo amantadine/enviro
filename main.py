@@ -20,8 +20,8 @@
 #   - the Pimoroni pirate crew
 
 # uncomment the below two lines to change the amount of logging enviro will do
-# from phew import logging
-# logging.disable_logging_types(logging.LOG_DEBUG)
+from phew import logging
+logging.disable_logging_types(logging.LOG_DEBUG)
 
 # Issue #117 where neeed to sleep on startup otherwis emight not boot
 from time import sleep
